@@ -1,11 +1,11 @@
 import = [
   # "/Users/ktruesdell/.nvm/versions/node/v20.11.0/lib/node_modules/alacritty-themes/themes/Kitty.toml",
-  # "~/.config/alacritty/themes/themes/afterglow.toml"
-  # "~/.config/alacritty/themes/themes/alabaster_dark.toml"
-  # "~/.config/alacritty/themes/themes/ayu_dark.toml"
-   "~/.config/alacritty/themes/themes/hyper.toml"
-  # "~/.config/alacritty/themes/themes/terminal_app.toml"
-  # "~/.config/alacritty/themes/themes/chicago95.toml"
+  # "~/.config/alacritty/alacritty-theme/themes/afterglow.toml"
+  # "~/.config/alacritty/alacritty-theme/themes/alabaster_dark.toml"
+  # "~/.config/alacritty/alacritty-theme/themes/ayu_dark.toml"
+   "~/.config/alacritty/alacritty-theme/themes/hyper.toml"
+  # "~/.config/alacritty/alacritty-theme/themes/terminal_app.toml"
+  # "~/.config/alacritty/alacritty-theme/themes/chicago95.toml"
 ]
 
 ## NOTE: This produces a TON of messages at the botton and only way to dismiss them is to use the mouse and click the X box
@@ -21,7 +21,7 @@ startup_mode = "Maximized"
 option_as_alt = "Both"
 decorations_theme_variant = "None"
 
-opacity = 0.8
+opacity = 0.85
 blur = true # false
 
   [window.padding]
