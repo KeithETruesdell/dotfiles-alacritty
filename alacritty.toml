@@ -1,4 +1,7 @@
-import = [
+## IMPORT will load these in order that they are imported
+## Using the import to load color themes
+## Using full path to the config folder as it doesn't like symlinks or relative paths
+general.import = [
   # "/Users/ktruesdell/.nvm/versions/node/v20.11.0/lib/node_modules/alacritty-themes/themes/Kitty.toml",
   # "~/.config/alacritty/alacritty-theme/themes/afterglow.toml"
   # "~/.config/alacritty/alacritty-theme/themes/alabaster_dark.toml"
@@ -9,7 +12,7 @@ import = [
 ]
 
 ## NOTE: This produces a TON of messages at the botton and only way to dismiss them is to use the mouse and click the X box
-live_config_reload = true
+general.live_config_reload = true
 
 [env]
 TERM = "xterm-256color"
@@ -30,7 +33,6 @@ blur = true # false
 
 [font]
 size = 13
-
 
   [font.normal]
   family = "FiraMono Nerd Font"
@@ -76,3 +78,10 @@ key = "F"
 mods = "Command|Control"
 action = "ToggleFullscreen"
 
+[cursor.style]
+shape = "Beam"
+blinking = "On"
+
+[cursor.vi_mode_style]
+shape = "Beam"
+blinking = "On"
