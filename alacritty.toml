@@ -1,6 +1,9 @@
 ## IMPORT will load these in order that they are imported
 ## Using the import to load color themes
 ## Using full path to the config folder as it doesn't like symlinks or relative paths
+
+## adding some text for testing sudmodules
+
 [general]
 import = [
   # "/Users/ktruesdell/.nvm/versions/node/v20.11.0/lib/node_modules/alacritty-themes/themes/Kitty.toml",
