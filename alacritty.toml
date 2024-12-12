@@ -48,6 +48,21 @@ size = 13
 [bell]
 animation = "Linear"
 
+[[keyboard.bindings]]
+key = "w"
+mods = "Control|Command"
+chars = "acw"
+
+[[keyboard.bindings]]
+key = "p"
+mods = "Control|Command"
+chars = "anp"
+
+[[keyboard.bindings]]
+key = "s"
+mods = "Control|Command"
+chars = "sourcer"
+
 ## NOTE: This does not work in alacritty - want to get this to work for vim keybindings
 [[keyboard.bindings]]
 chars = "\u001B[13;2u"
