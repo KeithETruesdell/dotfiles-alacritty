@@ -2,6 +2,7 @@
 ## Using the import to load color themes
 ## Using full path to the config folder as it doesn't like symlinks or relative paths
 
+## TEST
 
 [general]
 import = [
